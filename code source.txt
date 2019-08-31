@@ -1,0 +1,5 @@
+procedure TForm1.Pan_menu2Click(Sender: TObject);
+begin
+  ship.Top := TPanel(sender).Top;
+  Pane_all.Repaint ;
+end;
